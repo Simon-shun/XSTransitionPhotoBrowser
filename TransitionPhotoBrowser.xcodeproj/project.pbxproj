@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46C876FB058B9CB1A0E11CFE /* Pods_TransitionPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1F3A7B5615F047AE575440 /* Pods_TransitionPhotoBrowser.framework */; };
+		4915A6371D470FDC00164ADE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915A6361D470FDC00164ADE /* String+Extension.swift */; };
+		4915A6391D4734B100164ADE /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915A6381D4734B100164ADE /* PhotoCollectionViewCell.swift */; };
+		4915A63B1D48803900164ADE /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915A63A1D48803900164ADE /* AlertView.swift */; };
+		4967E2821D462360001F56A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967E2811D462360001F56A3 /* AppDelegate.swift */; };
+		4967E2841D462360001F56A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967E2831D462360001F56A3 /* ViewController.swift */; };
+		4967E2871D462360001F56A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4967E2851D462360001F56A3 /* Main.storyboard */; };
+		4967E2891D462360001F56A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4967E2881D462360001F56A3 /* Assets.xcassets */; };
+		4967E28C1D462360001F56A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4967E28A1D462360001F56A3 /* LaunchScreen.storyboard */; };
+		4967E2971D462360001F56A3 /* TransitionPhotoBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967E2961D462360001F56A3 /* TransitionPhotoBrowserTests.swift */; };
+		4967E2A21D462360001F56A3 /* TransitionPhotoBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967E2A11D462360001F56A3 /* TransitionPhotoBrowserUITests.swift */; };
+		4967E2B41D4623A3001F56A3 /* PopoerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967E2B01D4623A3001F56A3 /* PopoerAnimator.swift */; };
+		4967E2B61D4623A3001F56A3 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967E2B21D4623A3001F56A3 /* PopoverViewController.swift */; };
+		4967E2B71D4623A3001F56A3 /* PoprverPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967E2B31D4623A3001F56A3 /* PoprverPresentationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4967E2931D462360001F56A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4967E2761D462360001F56A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4967E27D1D462360001F56A3;
+			remoteInfo = TransitionPhotoBrowser;
+		};
+		4967E29E1D462360001F56A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4967E2761D462360001F56A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4967E27D1D462360001F56A3;
+			remoteInfo = TransitionPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B1F3A7B5615F047AE575440 /* Pods_TransitionPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransitionPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC84DD69E2E5F218613CFAC /* Pods-TransitionPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitionPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-TransitionPhotoBrowser/Pods-TransitionPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		4915A6361D470FDC00164ADE /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		4915A6381D4734B100164ADE /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		4915A63A1D48803900164ADE /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		4967E27E1D462360001F56A3 /* TransitionPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4967E2811D462360001F56A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4967E2831D462360001F56A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4967E2861D462360001F56A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4967E2881D462360001F56A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4967E28B1D462360001F56A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4967E28D1D462360001F56A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4967E2921D462360001F56A3 /* TransitionPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4967E2961D462360001F56A3 /* TransitionPhotoBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionPhotoBrowserTests.swift; sourceTree = "<group>"; };
+		4967E2981D462360001F56A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4967E29D1D462360001F56A3 /* TransitionPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4967E2A11D462360001F56A3 /* TransitionPhotoBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionPhotoBrowserUITests.swift; sourceTree = "<group>"; };
+		4967E2A31D462360001F56A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4967E2B01D4623A3001F56A3 /* PopoerAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoerAnimator.swift; sourceTree = "<group>"; };
+		4967E2B21D4623A3001F56A3 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		4967E2B31D4623A3001F56A3 /* PoprverPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoprverPresentationController.swift; sourceTree = "<group>"; };
+		9A12F0A5809D43393A31C0F1 /* Pods-TransitionPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitionPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TransitionPhotoBrowser/Pods-TransitionPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4967E27B1D462360001F56A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C876FB058B9CB1A0E11CFE /* Pods_TransitionPhotoBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4967E28F1D462360001F56A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4967E29A1D462360001F56A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134D06A2C947D0E04C4C0B36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A12F0A5809D43393A31C0F1 /* Pods-TransitionPhotoBrowser.debug.xcconfig */,
+				2CC84DD69E2E5F218613CFAC /* Pods-TransitionPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4967E2751D462360001F56A3 = {
+			isa = PBXGroup;
+			children = (
+				4967E2801D462360001F56A3 /* TransitionPhotoBrowser */,
+				4967E2951D462360001F56A3 /* TransitionPhotoBrowserTests */,
+				4967E2A01D462360001F56A3 /* TransitionPhotoBrowserUITests */,
+				4967E27F1D462360001F56A3 /* Products */,
+				134D06A2C947D0E04C4C0B36 /* Pods */,
+				E5F4FE4447158A8644F03093 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4967E27F1D462360001F56A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4967E27E1D462360001F56A3 /* TransitionPhotoBrowser.app */,
+				4967E2921D462360001F56A3 /* TransitionPhotoBrowserTests.xctest */,
+				4967E29D1D462360001F56A3 /* TransitionPhotoBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4967E2801D462360001F56A3 /* TransitionPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				4915A6361D470FDC00164ADE /* String+Extension.swift */,
+				4967E2AF1D4623A2001F56A3 /* Popover */,
+				4967E2811D462360001F56A3 /* AppDelegate.swift */,
+				4967E2831D462360001F56A3 /* ViewController.swift */,
+				4967E2851D462360001F56A3 /* Main.storyboard */,
+				4967E2881D462360001F56A3 /* Assets.xcassets */,
+				4967E28A1D462360001F56A3 /* LaunchScreen.storyboard */,
+				4967E28D1D462360001F56A3 /* Info.plist */,
+			);
+			path = TransitionPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		4967E2951D462360001F56A3 /* TransitionPhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				4967E2961D462360001F56A3 /* TransitionPhotoBrowserTests.swift */,
+				4967E2981D462360001F56A3 /* Info.plist */,
+			);
+			path = TransitionPhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		4967E2A01D462360001F56A3 /* TransitionPhotoBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4967E2A11D462360001F56A3 /* TransitionPhotoBrowserUITests.swift */,
+				4967E2A31D462360001F56A3 /* Info.plist */,
+			);
+			path = TransitionPhotoBrowserUITests;
+			sourceTree = "<group>";
+		};
+		4967E2AF1D4623A2001F56A3 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				4967E2B01D4623A3001F56A3 /* PopoerAnimator.swift */,
+				4967E2B21D4623A3001F56A3 /* PopoverViewController.swift */,
+				4967E2B31D4623A3001F56A3 /* PoprverPresentationController.swift */,
+				4915A6381D4734B100164ADE /* PhotoCollectionViewCell.swift */,
+				4915A63A1D48803900164ADE /* AlertView.swift */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		E5F4FE4447158A8644F03093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B1F3A7B5615F047AE575440 /* Pods_TransitionPhotoBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4967E27D1D462360001F56A3 /* TransitionPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4967E2A61D462360001F56A3 /* Build configuration list for PBXNativeTarget "TransitionPhotoBrowser" */;
+			buildPhases = (
+				3E61B5DDC26F8D152E4CEA83 /* [CP] Check Pods Manifest.lock */,
+				4967E27A1D462360001F56A3 /* Sources */,
+				4967E27B1D462360001F56A3 /* Frameworks */,
+				4967E27C1D462360001F56A3 /* Resources */,
+				6D7970C63C98B7B8DC9FCB45 /* [CP] Embed Pods Frameworks */,
+				29E8C0E380FBE2F099967701 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransitionPhotoBrowser;
+			productName = TransitionPhotoBrowser;
+			productReference = 4967E27E1D462360001F56A3 /* TransitionPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4967E2911D462360001F56A3 /* TransitionPhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4967E2A91D462360001F56A3 /* Build configuration list for PBXNativeTarget "TransitionPhotoBrowserTests" */;
+			buildPhases = (
+				4967E28E1D462360001F56A3 /* Sources */,
+				4967E28F1D462360001F56A3 /* Frameworks */,
+				4967E2901D462360001F56A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4967E2941D462360001F56A3 /* PBXTargetDependency */,
+			);
+			name = TransitionPhotoBrowserTests;
+			productName = TransitionPhotoBrowserTests;
+			productReference = 4967E2921D462360001F56A3 /* TransitionPhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4967E29C1D462360001F56A3 /* TransitionPhotoBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4967E2AC1D462360001F56A3 /* Build configuration list for PBXNativeTarget "TransitionPhotoBrowserUITests" */;
+			buildPhases = (
+				4967E2991D462360001F56A3 /* Sources */,
+				4967E29A1D462360001F56A3 /* Frameworks */,
+				4967E29B1D462360001F56A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4967E29F1D462360001F56A3 /* PBXTargetDependency */,
+			);
+			name = TransitionPhotoBrowserUITests;
+			productName = TransitionPhotoBrowserUITests;
+			productReference = 4967E29D1D462360001F56A3 /* TransitionPhotoBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4967E2761D462360001F56A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CCE;
+				TargetAttributes = {
+					4967E27D1D462360001F56A3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4967E2911D462360001F56A3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4967E27D1D462360001F56A3;
+					};
+					4967E29C1D462360001F56A3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4967E27D1D462360001F56A3;
+					};
+				};
+			};
+			buildConfigurationList = 4967E2791D462360001F56A3 /* Build configuration list for PBXProject "TransitionPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4967E2751D462360001F56A3;
+			productRefGroup = 4967E27F1D462360001F56A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4967E27D1D462360001F56A3 /* TransitionPhotoBrowser */,
+				4967E2911D462360001F56A3 /* TransitionPhotoBrowserTests */,
+				4967E29C1D462360001F56A3 /* TransitionPhotoBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4967E27C1D462360001F56A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4967E28C1D462360001F56A3 /* LaunchScreen.storyboard in Resources */,
+				4967E2891D462360001F56A3 /* Assets.xcassets in Resources */,
+				4967E2871D462360001F56A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4967E2901D462360001F56A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4967E29B1D462360001F56A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29E8C0E380FBE2F099967701 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitionPhotoBrowser/Pods-TransitionPhotoBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E61B5DDC26F8D152E4CEA83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D7970C63C98B7B8DC9FCB45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitionPhotoBrowser/Pods-TransitionPhotoBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4967E27A1D462360001F56A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4967E2B61D4623A3001F56A3 /* PopoverViewController.swift in Sources */,
+				4967E2B41D4623A3001F56A3 /* PopoerAnimator.swift in Sources */,
+				4967E2B71D4623A3001F56A3 /* PoprverPresentationController.swift in Sources */,
+				4967E2841D462360001F56A3 /* ViewController.swift in Sources */,
+				4915A6391D4734B100164ADE /* PhotoCollectionViewCell.swift in Sources */,
+				4915A63B1D48803900164ADE /* AlertView.swift in Sources */,
+				4915A6371D470FDC00164ADE /* String+Extension.swift in Sources */,
+				4967E2821D462360001F56A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4967E28E1D462360001F56A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4967E2971D462360001F56A3 /* TransitionPhotoBrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4967E2991D462360001F56A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4967E2A21D462360001F56A3 /* TransitionPhotoBrowserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4967E2941D462360001F56A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4967E27D1D462360001F56A3 /* TransitionPhotoBrowser */;
+			targetProxy = 4967E2931D462360001F56A3 /* PBXContainerItemProxy */;
+		};
+		4967E29F1D462360001F56A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4967E27D1D462360001F56A3 /* TransitionPhotoBrowser */;
+			targetProxy = 4967E29E1D462360001F56A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4967E2851D462360001F56A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4967E2861D462360001F56A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4967E28A1D462360001F56A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4967E28B1D462360001F56A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4967E2A41D462360001F56A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4967E2A51D462360001F56A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4967E2A71D462360001F56A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A12F0A5809D43393A31C0F1 /* Pods-TransitionPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TransitionPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCE.TransitionPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4967E2A81D462360001F56A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC84DD69E2E5F218613CFAC /* Pods-TransitionPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TransitionPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCE.TransitionPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4967E2AA1D462360001F56A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TransitionPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCE.TransitionPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransitionPhotoBrowser.app/TransitionPhotoBrowser";
+			};
+			name = Debug;
+		};
+		4967E2AB1D462360001F56A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TransitionPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCE.TransitionPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransitionPhotoBrowser.app/TransitionPhotoBrowser";
+			};
+			name = Release;
+		};
+		4967E2AD1D462360001F56A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TransitionPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCE.TransitionPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TransitionPhotoBrowser;
+			};
+			name = Debug;
+		};
+		4967E2AE1D462360001F56A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TransitionPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCE.TransitionPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TransitionPhotoBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4967E2791D462360001F56A3 /* Build configuration list for PBXProject "TransitionPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4967E2A41D462360001F56A3 /* Debug */,
+				4967E2A51D462360001F56A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4967E2A61D462360001F56A3 /* Build configuration list for PBXNativeTarget "TransitionPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4967E2A71D462360001F56A3 /* Debug */,
+				4967E2A81D462360001F56A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4967E2A91D462360001F56A3 /* Build configuration list for PBXNativeTarget "TransitionPhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4967E2AA1D462360001F56A3 /* Debug */,
+				4967E2AB1D462360001F56A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4967E2AC1D462360001F56A3 /* Build configuration list for PBXNativeTarget "TransitionPhotoBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4967E2AD1D462360001F56A3 /* Debug */,
+				4967E2AE1D462360001F56A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4967E2761D462360001F56A3 /* Project object */;
+}

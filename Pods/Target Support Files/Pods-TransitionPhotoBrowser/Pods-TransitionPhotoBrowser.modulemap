@@ -1,0 +1,6 @@
+framework module Pods_TransitionPhotoBrowser {
+  umbrella header "Pods-TransitionPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}
