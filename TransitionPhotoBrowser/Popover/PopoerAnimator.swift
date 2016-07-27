@@ -74,10 +74,6 @@ class PopoerAnimator: NSObject , UIViewControllerTransitioningDelegate ,UIViewCo
 
             //将视图添加到容器上
             transitionContext.containerView()?.addSubview(toView)
-            
-            //设置锚点
-//            toView.layer.anchorPoint = CGPointMake(0.5, 0)
-            
             //执行动画
             
             UIView.animateWithDuration(0.5, animations: {
@@ -95,11 +91,7 @@ class PopoerAnimator: NSObject , UIViewControllerTransitioningDelegate ,UIViewCo
             
             //将视图添加到容器上
             transitionContext.containerView()?.addSubview(fromView)
-            //设置锚点
-//            fromView.layer.anchorPoint = CGPointMake(0.5, 0)
-            
             //执行动画
-
             UIView.animateWithDuration(0.5, animations: {
 
                 fromView.alpha = 0
