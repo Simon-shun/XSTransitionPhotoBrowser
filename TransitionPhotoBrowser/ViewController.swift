@@ -53,7 +53,7 @@ class ViewController: UIViewController {
             photoView.frame = CGRect(x: 30+row*(W + marge), y: 100+raw*(H+marge), width: W, height: H)
             photoView.userInteractionEnabled = true
             photoView.contentMode = UIViewContentMode.ScaleAspectFit
-            photoView.sd_setImageWithURL(NSURL(string:"dasdf"), placeholderImage: UIImage(named: "pleaceholder"))
+            photoView.sd_setImageWithURL(imageUrls![i], placeholderImage: UIImage(named: "pleaceholder"))
             photoView.tag = i
             let tap = UITapGestureRecognizer.init(target: self, action: #selector(ViewController.presentVc(_:)))
             photoView.addGestureRecognizer(tap)
